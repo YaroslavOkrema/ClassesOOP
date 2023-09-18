@@ -7,6 +7,9 @@ class User {
     }
     #test = 'Hohoho'
     #url = 'https://backend.ex';
+    send () {
+        
+    }
     set name(name) {
         console.log('Privat = ' + this.#test);
         this._name = name.trim().toLowerCase();
